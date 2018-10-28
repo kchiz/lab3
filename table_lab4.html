@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>TODO write content</div> <div>Nowy div</div>
+        <span>Jakis tekst</span><span>Nowy tekst w nowym spanie</span>
+        <br>
+        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        <img src="img/obraz.jpg" alt="Niebiescy ludzie" width="200" height="200" hspace="5" vspace="10" align="left"/>
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+        
+      
+    
+        <table border="1" cellpadding="5" cellspacing="1" align="center">
+            <thead>
+                <tr><th colspan="3" align="center">Naglowek</th>         
+                </tr>  
+            </thead>
+            <tbody>
+                <tr><td>Pozycja 1</td><td>Pozycja 2</td><td>Pozycja 3</td>
+                </tr>
+                <tr><td>Pozycja 4</td><td>Pozycja 5</td><td>Pozycja 6</td>
+                </tr>
+                <tr><td colspan="3" align="center">Pozycje 7, 8 i 9 scalone</td>   <!-- scala komorki w poziomie-->
+                </tr>    
+                <tr><td>Pozycja 10</td><td>Pozycja 11</td><td rowspan="3" valign="middle">Pozycje 12, 15 i 18 scalone</td> <!-- scala w pionie pozycje 12, 15 i 18-->
+                </tr>
+                <tr><td>Pozycja 13</td><td>Pozycja 14</td><!--<td>Pozycja 15</td> -->
+                </tr>
+                <tr><td>Pozycja 16</td><td>Pozycja 17</td><!--<td>Pozycja 18</td> -->
+                </tr>
+            </tbody>   
+        </table>
+      
+     <map name="mapa_obrazka">
+            <area shape="rect" coords="0,0,150,300" href="https://www.wp.pl/" alt="przekierowanie do wp"/>
+            <area shape="rect" coords="150,0,300,300" href="https://www.onet.pl/" alt="przekierowanie do onet"/>
+        </map>    
+    <img src="img/obraz.jpg" alt="Niebiescy ludzie" width="300" height="300" hspace="5" vspace="10" align="center" usemap="#mapa_obrazka"/>
+     
+    
+    <form action="" id="form1" method="get">
+        <label for="imie">Imie</label><br/>
+        <input type="text" name="imie" id="imie" value="Kira" maxlength="3" disabled="disabled"/><br/><br/>
+        <label for="haslo">Haslo</label><br/>
+        <input type="password" name="haslo" id="haslo" value="scisletajne"/><br/><br/>
+        <label for="zaznacz">Zaznacz</label><br/>
+        <input type="checkbox" name="zaznacz" id="zaznacz"/><br/><br/>
+        <label for="plec">Kobieta</label><br/>
+        <input type="radio" name="plec" id="plec"/><br/><br/>
+       <label for="plec">Mezczyzna</label><br/>
+        <input type="radio" name="plec" id="plec"/><br/><br/>
+        <label for="wyczysc">Wyczysc</label><br/>
+        <input type="reset" name="wyczysc" id="wyczysc"/><br/><br/>
+        <label for="folder">Zaladuj plik</label><br/>
+        <input type="file" name="folder" id="folder"/><br/><br/>
+        <label for="ukryte">Pole ukryte</label><br/>
+        <input type="hidden" name="ukryte" id="ukryte"/><br/><br/>
+        <label for="obrazek">Przeslij obraz</label><br/>
+        <input type="image" name="obrazek" id="obrazek"/><br/><br/>
+        <label for="przycisk">Przycisk</label><br/>
+        <input type="button" name="przycisk" id="przycisk"/><br/><br/>
+        <label for="kliknij">Kliknij</label><br/>
+        <input type="submit" value="kliknij" id="kliknij"/><br/><br/>
+    </form>
+    </body>
+</html>
