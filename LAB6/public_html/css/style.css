@@ -1,0 +1,69 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 18, 2018, 2:30:20 PM
+    Author     : student
+*/
+/* p:first-child{color: red;} */
+
+p+p{color: blue;}
+/*  p:last-child{color: green;} */
+p:first-letter{font-size: 20px;}
+p::first-letter{font-size: 20px}
+p::first-line{text-decoration: underline}
+/*  p:last-child::before{content: "PRZED";} */
+/*  p:last-child::after{content: "PO";} */
+div>p{color: black;}
+#boks {width: 500px; 
+       height: 500px; 
+       background-color: greenyellow; 
+       background-image: url(../img/image.jpg); 
+       background-repeat: no-repeat; 
+       background-attachment: scroll; 
+       background-position: 50% 50%;
+       border-width: 2px;
+       border-color: black;
+       border-style: dashed;
+       }
+
+p {color: black; 
+   letter-spacing: normal; 
+   line-height: 20px;
+   text-indent: 10px;
+   white-space: normal;
+   word-spacing: normal;
+   font-family: Lucida;
+   font-size: 20px;
+   font-style: italic;
+   font-weight: lighter;
+   }
+p>span {vertical-align: sub;}
+
+#boks2 {width: 400px; 
+       height: 400px; 
+       background-color: red; 
+       border-width: 2px;
+       border-color: black;
+       border-style: solid;
+       margin-top: 10px;
+       margin-right: 20px;
+       margin-bottom: 30px;
+       margin-left: 40px;
+       padding: 10px;
+       }
+       
+#boks3 {width: 400px; 
+       height: 400px; 
+       background-color: lightgray; 
+       border-width: 2px;
+       border-color: black;
+       border-style: solid;
+       margin-top: 10px;
+       margin-right: 20px;
+       margin-bottom: 30px;
+       margin-left: 40px;
+       padding: 10px;
+       }
